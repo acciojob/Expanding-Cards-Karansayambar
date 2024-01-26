@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+}
+.panel{
+	width:100px;
+	height:500px;
+	border-radius:50px;
+	margin:10px;
+	transition:width 0.5s ease;
+}
+.panel:active{
+	width:600px;
+}
