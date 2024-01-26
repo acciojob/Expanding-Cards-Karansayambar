@@ -17,7 +17,7 @@ body {
     border-radius: 10px;
     margin: 10px;
     cursor: pointer;
-    transition: width 1s ease;
+    transition: width 0.3s ease;
 }
 
 .panel.active {
