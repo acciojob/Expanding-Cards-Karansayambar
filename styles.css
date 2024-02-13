@@ -16,7 +16,7 @@ body {
     width: 100px;
     height: 350px;
     cursor: pointer;
-    transition: transform 0.5s ease;
+    transition: width 0.5s ease;
 	position:relative;
 }
 .panel > img{
@@ -24,12 +24,13 @@ body {
     height: 100%;
     object-fit: cover;
 }
-.panel.active{
+/* .panel.active{
 	transform:scale(1.2);
-}
+} */
 .img-text{
 	position:absolute;
-	bottom:0px;
+	bottom:20px;
+	left:10px;
 	color:white;
 	display:none;
 }
