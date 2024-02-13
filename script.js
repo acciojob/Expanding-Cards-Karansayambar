@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
 			const text1 = panel.querySelector(".img-text");
 			panels.forEach((p) => {
 				p.classList.remove('active')
-				text1.style.display = "none";
 			});
             panel.classList.add('active');
 			text1.style.display = "flex";
