@@ -22,7 +22,10 @@ document.addEventListener("DOMContentLoaded", () => {
     panels.forEach((panel) => {
         panel.addEventListener('click', () => {
 			const text1 = panel.querySelector(".img-text");
-			panels.forEach(p => p.classList.remove('active'));
+			panels.forEach((p) => {
+				p.classList.remove('active')
+				text1.style.display = "none";
+			});
             panel.classList.add('active');
 			text1.style.display = "flex";
         });
